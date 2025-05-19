@@ -75,8 +75,19 @@ button{
 #completetitle{
     margin:10px 0;
 }
-@media(max-width:660px){
+@media(max-width:600px){
     #inputbox{
-        width:40vh;
+        width: 80%;
+    }
+    #submit{
+        width: 50%;
+    }
+    .todobox{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .list{
+        width:80%;
     }
 }
