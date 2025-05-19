@@ -75,3 +75,8 @@ button{
 #completetitle{
     margin:10px 0;
 }
+@media(max-width:660px){
+    #inputbox{
+        width:40vh;
+    }
+}
